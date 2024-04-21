@@ -6,9 +6,9 @@ import { TypeOrmModule } from '@nestjs/typeorm';
 @Module({
   imports: [
     // Import the module
- ConfigMoudle.forRoot(), 
- TypeOrmModule.forRoot({
-  
+ ConfigModule.forRoot(), 
+ TypeOrmModule.forRootRootAync (), 
+ 
  })
   ],
   controllers: [AppController],
