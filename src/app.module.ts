@@ -8,6 +8,11 @@ import { TypeOrmModule } from '@nestjs/typeorm';
     // Import the module
  ConfigModule.forRoot(), 
  TypeOrmModule.forRootRootAync (), 
+ TypeOrmModule.forRoot({
+    type: 'mysql',
+    host: 'localhost',
+    port: 3306,
+ }),
  
  })
   ],
