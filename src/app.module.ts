@@ -3,6 +3,9 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { TypeOrmModule } from '@nestjs/typeorm';
 
+/*all the import are based on the configurationService. 
+*/
+
 @Module({
   imports: [
     // Import the module
