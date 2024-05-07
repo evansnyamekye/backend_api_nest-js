@@ -26,8 +26,8 @@ import { ConfigModule, ConfigService } from '@nestjs/config';
       }),
     }), 
   ],
-  controllers: [AppController],
-  providers: [AppService],
-})
+   controllers: [AppController], 
+   providers: [AppService], 
+ })
 export class AppModule {}import { join } from 'path';
 
